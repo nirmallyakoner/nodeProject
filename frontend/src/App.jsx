@@ -19,7 +19,7 @@ console.log(student)
       <div>
           <h1>
             {
-              student.map((item)=>{
+              student?.map((item)=>{
                 return (
                   <>
                   <p> {item.email}</p>
